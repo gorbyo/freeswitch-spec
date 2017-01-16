@@ -49,7 +49,7 @@
 %{?with_mod_shout:%define build_mod_shout 1 }
 
 %define version 1.6.14
-%define release 1.5
+%define release 1.6
 
 ######################################################################################################################
 #
