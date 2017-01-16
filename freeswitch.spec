@@ -49,7 +49,7 @@
 %{?with_mod_shout:%define build_mod_shout 1 }
 
 %define version 1.6.14
-%define release 1
+%define release 1.1
 
 ######################################################################################################################
 #
@@ -109,7 +109,7 @@ Group:        	Productivity/Telephony/Servers
 Version:	%{version}
 Release:	%{release}%{?dist}
 URL:          	http://www.freeswitch.org/
-Packager:     	Ken Rice
+Packager:     	Oleh Horbachov
 Vendor:       	http://www.freeswitch.org/
 
 ######################################################################################################################
@@ -2521,6 +2521,15 @@ fi
 #
 ######################################################################################################################
 %changelog
+* Mon Jan 16 2017 Oleh Horbachov 1.6.14-1.1
+- 
+
+* Mon Jan 16 2017 Oleh Horbachov <o.horbachov@kwebbl.com>
+- 
+
+* Mon Jan 16 2017 Oleh Horbachov <gorbyo@gmail.com>
+- 
+
 * Mon Jan 16 2017 Oleh Horbachov 1.6.14-1
 - new package built with tito
 
